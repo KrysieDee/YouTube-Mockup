@@ -1,0 +1,140 @@
+body {
+border: 5px solid #232324;
+background-color: #232324;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+.ytlogo img{
+  display: flex;
+ width:  140px;
+ height: auto;
+}
+
+.YouTubeHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height:3rem;
+}
+.YouTubeHeader form{
+  display: flex;
+  flex-direction: row;
+  color: red;
+}
+.form {
+ display: flex;
+ width: 60%;
+}
+.form  input {
+  display: flex;
+   width: 500%;
+  height: 4vw;
+ background-position: right;
+}
+.Upload{
+  display: flex;
+  justify-content: space-between;
+  width: 12%;
+  background-color: red;
+  font-family: Arial;
+  color: white;
+  text-align: center;
+
+}
+
+.LeftColumn1{
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 5;
+}
+.LeftColumn1 li{
+  list-style-type: none;
+  font-size: 15px;
+  align-content: space-between;
+  color: gray;
+}
+.LeftColumn2{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  color: gray;
+}
+.LeftColumn2 li{
+  list-style-type: none;
+  font-size: 15px;
+}
+.RightColumn{
+  color: #232324;
+}
+.mediacontent{
+  display: flex;
+justify-content: center;
+align-self: flex-start;
+}
+.VideoTitle{
+  text-align: center;
+  color: white;
+/* width: auto; */
+}
+
+.UserStats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 10px;
+  color: gray;
+}
+.UserStats sub{
+  display: flex;
+  align-self: flex-end;
+}
+.UserStats ul{
+  display: flex;
+  flex-direction: row;
+}
+.UserStats li{
+  list-style-type: none;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+/*Mary's comment*/
+.comment1{
+  display: flex;
+  flex-direction: column;
+  margin-left: 110px;
+}
+.comment1 h4{
+  display: flex;
+  align-self: flex-start;
+  color: blue;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+/*Laura's Comment*/
+.comment2{
+  display: flex;
+flex-direction: column;
+margin-left: 110px;
+}
+.maryname {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.lauraname{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  color: blue;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.comments {
+  background-color: white;
+}
